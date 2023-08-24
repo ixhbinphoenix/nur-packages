@@ -34,6 +34,7 @@ platform.buildRustPackage rec {
   PKG_CONFIG_PATH = "${pkgs.alsa-lib.dev}/lib/pkgconfig";
 
   meta = with lib; {
+    broken = true;
     description = "CLI tool to play sounds in random intervals";
     longDescription = ''
       what-the-dog-doin is a CLI tool that can play any sound in fully customizable intervals.
