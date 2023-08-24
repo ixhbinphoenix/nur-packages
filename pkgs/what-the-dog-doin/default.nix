@@ -24,6 +24,7 @@ platform.buildRustPackage rec {
   };
 
   cargoSha256 = "sha256-hxXRHbnU9kfn2xrJg5Xg3INNgbqWgbv5eJcxlYwQ1Fs=";
+  verifyCargoDeps = false;
 
   nativeBuildInputs = with pkgs; [
     pkg-config
