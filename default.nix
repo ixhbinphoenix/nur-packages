@@ -15,6 +15,7 @@
   overlays = import ./overlays; # nixpkgs overlays
 
   what-the-dog-doin = pkgs.callPackage ./pkgs/what-the-dog-doin { };
+  todoit = pkgs.callPackage ./pkgs/todoit { };
   # some-qt5-package = pkgs.libsForQt5.callPackage ./pkgs/some-qt5-package { };
   # ...
 }
